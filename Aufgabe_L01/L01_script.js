@@ -14,12 +14,12 @@ var AufgabeL01;
     }
     function getVerse(_subjekte, _praedikate, _objekte) {
         let vers = "";
-        let randomSubjekte = Math.floor(Math.random() * subjekte.length);
-        vers += subjekte.splice(randomSubjekte, 1)[0] + " ";
-        let randomPraedikate = Math.floor(Math.random() * praedikate.length);
-        vers += praedikate.splice(randomPraedikate, 1)[0] + " ";
-        let randomObjekte = Math.floor(Math.random() * objekte.length);
-        vers += objekte.splice(randomObjekte, 1)[0] + " ";
+        let randomSubjekte = Math.floor(Math.random() * _subjekte.length);
+        vers += _subjekte.splice(randomSubjekte, 1)[0] + " ";
+        let randomPraedikate = Math.floor(Math.random() * _praedikate.length);
+        vers += _praedikate.splice(randomPraedikate, 1)[0] + " ";
+        let randomObjekte = Math.floor(Math.random() * _objekte.length);
+        vers += _objekte.splice(randomObjekte, 1)[0] + " ";
         //console.log(_subjekte, _praedikate, _objekte);
         //console.log(getVerse);
         //console.log(randomSubjekte, randomPraedikate, randomObjekte);
