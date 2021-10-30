@@ -16,7 +16,7 @@ var EventInspector;
         let div1 = document.querySelector("#div1"); //install click and keyup-listeners on document DIV
         div1.addEventListener("click", logInfo);
         div1.addEventListener("keyup", logInfo);
-        console.log(handleLoad);
+        //console.log(handleLoad);  
     }
     function SetInfoBox(_event) {
         //console.log(_event);
